@@ -22,10 +22,10 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Create local changes
       run: |
-        python ceidg.py
+        python ecb.py
     - name: Commit files
       run: |
-        git config --local user.email "github.action@vane.pl"
+        git config --local user.email "michal@vane.pl"
         git config --local user.name "GitHub Action"
         git add data
         git commit -m "Update data" -a
