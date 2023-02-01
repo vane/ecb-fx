@@ -1,0 +1,2 @@
+ecb foreign exchange rates
+---
