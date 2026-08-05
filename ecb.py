@@ -5,7 +5,7 @@ from datetime import datetime
 import requests
 
 url = 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml?00028374c23d027b48a2f227a88071f3'
-resp = requests.get(url, verify=False)
+resp = requests.get(url)
 
 dt = datetime.now()
 dt_fname = dt.strftime('%Y-%m-%d')
