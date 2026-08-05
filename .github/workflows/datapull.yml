@@ -3,7 +3,7 @@ name: Get ecb fx data
 on:
   workflow_dispatch:
   schedule:
-  - cron: "10 30 * * *"
+    - cron: "5 10 * * *"
 
 jobs:
   stale:
